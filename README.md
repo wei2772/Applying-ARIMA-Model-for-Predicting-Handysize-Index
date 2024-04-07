@@ -33,7 +33,9 @@ Seasonal ARIMA 僅利用變數的實際觀測值進行建模，卻沒有考慮�
 
 ![image](https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/646584af-2e91-461c-b0eb-36e662f81cef)
 
-其中， ηt 為 ARIMA 過程。並通過 AICc (訊息準則) 中來選擇 ARIMA 過程中的 p 和 q。
+其中， ηt 為 ARIMA 過程。並通過 AICc (訊息準則) 中來選擇滯後期數及 ARIMA 過程中的 p 和 q。
+
+本研究有 5 個預測變數，則須將 5 個預測變數檢定為穩態，再通過 AICc 來判斷個別適合的滯後期數及 ARIMA 模型。
 
 # Applying-ARIMA-Model-for-Predicting-Handysize-Index
 本研究採用 Handysize 資料集，資料期間為 2011 年 2 月 ∼ 2023 年 11 月，共 154 筆資料，共 16 項變數。 包含：
@@ -97,6 +99,8 @@ Seasonal ARIMA 僅利用變數的實際觀測值進行建模，卻沒有考慮�
   <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/5ea57f29-94e3-4fe4-879a-8014d896dfd0" width='60%' height='60%'/>
 </p>
 
+三種 ARIMA 模型中，以 dynamic ARIMA considering time lags 之 MAPE = 4.39 表現最好，
+
 Seasonal ARIMA 預測結果
 
 <p align="center">
@@ -109,14 +113,14 @@ dynamic ARIMA 預測結果
   <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/a74ea68c-c701-4bc4-8e9a-69241d1dc7d0" width='60%' height='60%'/>
 </p>
 
-dynamic ARIMA considering lags 預測結果
+dynamic ARIMA considering time lags 預測結果
 
 <p align="center">
   <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/967f3fd6-3ce5-4ff8-8d02-05acc148f8f9" width='60%' height='60%'/>
 </p>
 
-
-
+# 結論
+本研究採用 Handysize 資料集，以 Seasonal ARIMA、Dynamic ARIMA、Dynamic ARIMA considering time lags 演算法預測輕便型船運指數（Handysize），研究中加入 MARS 篩選變數，並使用 Ljung-Box 白噪聲檢定評估模型績效。以 dynamic ARIMA  considering time lags 之 MAPE = 4.39% 績效最好。
 
 
 
