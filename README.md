@@ -122,6 +122,8 @@ dynamic ARIMA considering time lags 預測結果
 # 結論
 本研究採用 Handysize 資料集，以 Seasonal ARIMA、Dynamic ARIMA、Dynamic ARIMA considering time lags 演算法預測輕便型船運指數（Handysize），研究中加入 MARS 篩選變數，並使用 Ljung-Box 白噪聲檢定評估模型績效。以 dynamic ARIMA  considering time lags 之 MAPE = 4.39% 績效最好。
 
+# 參考資料
+https://otexts.com/fpp2/arima.html
 
 
 
