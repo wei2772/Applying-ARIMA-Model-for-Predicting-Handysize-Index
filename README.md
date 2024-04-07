@@ -93,20 +93,27 @@ Seasonal ARIMA 僅利用變數的實際觀測值進行建模，卻沒有考慮�
 
 **評估模型績效**
 
-![image](https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/5ea57f29-94e3-4fe4-879a-8014d896dfd0)
+<p align="center">
+  <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/5ea57f29-94e3-4fe4-879a-8014d896dfd0" width='60%' height='60%'/>
+</p>
 
 Seasonal ARIMA 預測結果
 
-![image](https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/56a7a596-dcb2-4dfc-8574-13db9ef8f094)
+<p align="center">
+  <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/56a7a596-dcb2-4dfc-8574-13db9ef8f094" width='60%' height='60%'/>
+</p>
 
 dynamic ARIMA 預測結果
 
-![image](https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/a74ea68c-c701-4bc4-8e9a-69241d1dc7d0)
+<p align="center">
+  <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/a74ea68c-c701-4bc4-8e9a-69241d1dc7d0" width='60%' height='60%'/>
+</p>
 
 dynamic ARIMA considering lags 預測結果
 
-![image](https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/967f3fd6-3ce5-4ff8-8d02-05acc148f8f9)
-
+<p align="center">
+  <img src="https://github.com/wei2772/Applying-ARIMA-Model-for-Predicting-Handysize-Index/assets/166236173/967f3fd6-3ce5-4ff8-8d02-05acc148f8f9" width='60%' height='60%'/>
+</p>
 
 
 
