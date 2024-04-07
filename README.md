@@ -50,25 +50,25 @@ Seasonal ARIMA 僅利用變數的實際觀測值進行建模，卻沒有考慮�
 
 “BPI_t.1”：波羅的海Panamax指數（BPI）的時間滯後1期
 
-“Australian.thermal.coal”：澳大利亞熱煤
+“Australian.thermal.coal”：澳大利亞熱煤價格
 
-“Soybeans”：大豆
+“Soybeans”：大豆價格
 
-“Wheat”：小麥
+“Wheat”：小麥價格
 
-“WTI.crude.Oil”：西德州中級原油（WTI）
+“WTI.crude.Oil”：西德州中級原油（WTI）價格
 
 “IMF_base.metal.index”：國際貨幣基金組織基本金屬指數
 
-“Corn”：玉米
+“Corn”：玉米價格
 
-“CN_metal.production”：中國金屬生產
+“CN_metal.production”：中國金屬生產指數
 
 “Breakbulk.capesize._SeasonIndex”：Capesize散貨船季節指數
 
-“Rock.Phosphate”：磷石
+“Rock.Phosphate”：磷石價格
 
-“Iron.Ore”：鐵礦石
+“Iron.Ore”：鐵礦石價格
 
 “PPI_CN”：中國生產者價格指數
 
